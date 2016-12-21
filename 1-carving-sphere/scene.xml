@@ -1,0 +1,207 @@
+<!DOCTYPE configML>
+<configuration>
+ <SaveScene>
+  <Version value="6.0"/>
+  <NextObjectID value="3"/>
+  <NumberOfSceneObjects value="4"/>
+  <ObjectList>
+   <ObjectInScene_0>
+    <ObjectClass value="WorldObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-2"/>
+    <ParentID value="-1"/>
+    <ObjectName value="World"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="0"/>
+    <ObjectManagedBySystem value="1"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="0"/>
+    <ObjectDeletable value="0"/>
+    <NameChangeable value="0"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="0"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_0>
+   <ObjectInScene_1>
+    <ObjectClass value="TripleCutPlaneObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-3"/>
+    <ParentID value="-2"/>
+    <ViewPlanes value="0 0 0 "/>
+    <PlanesPosition value="5.0109150000000113e+00 2.2596194999999994e+01 2.9967714999999998e+01 "/>
+    <SliceThickness value="1"/>
+    <SliceMixMode>
+     <NumberOfElements value="1"/>
+     <Element_0 value="2"/>
+    </SliceMixMode>
+    <BlendingModeIndices>
+     <NumberOfElements value="1"/>
+     <Element_0 value="2"/>
+    </BlendingModeIndices>
+   </ObjectInScene_1>
+   <ObjectInScene_2>
+    <ObjectClass value="VolumeRenderingObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-4"/>
+    <ParentID value="-2"/>
+    <ObjectName value="PRISM Volume Render"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="0"/>
+    <ObjectManagedBySystem value="1"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="0"/>
+    <NameChangeable value="0"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="0"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <IsAnimating value="0"/>
+    <SamplingDistance value="1.0000000000000000e+00"/>
+    <ShowInteractionWidget value="1"/>
+    <InteractionWidgetLine value="0"/>
+    <InteractionPoint1 value="6.4064588191356862e+01 1.0588808803007099e+00 3.0968387695444914e+01 "/>
+    <InteractionPoint2 value="2.0000000000000000e+02 0.0000000000000000e+00 0.0000000000000000e+00 "/>
+    <RayInitShaderTypeName value="carve-sphere"/>
+    <StopConditionShaderTypeName value="ERT alpha 99%"/>
+    <ImageSlots>
+     <NumberOfElements value="1"/>
+     <Element_0>
+      <VolumeEnabled value="1"/>
+      <VolumeIs16Bits value="0"/>
+      <LinearSampling value="1"/>
+      <ShaderContributionTypeName value="Add"/>
+      <LastImageObjectId value="0"/>
+      <ColorTransferFunction>
+       <NbColorPoints value="2"/>
+       <ColorPoint_0 value="2.2603878116343491e+01 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <ColorPoint_1 value="2.1191135734072020e+02 1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+      </ColorTransferFunction>
+      <OpacityTransferFunction>
+       <NbPoints value="4"/>
+       <Point_0 value="0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <Point_1 value="6.8518005540166200e+01 4.8000000000000001e-02 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <Point_2 value="1.3491689750692521e+02 5.2800000000000002e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <Point_3 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+      </OpacityTransferFunction>
+     </Element_0>
+    </ImageSlots>
+   </ObjectInScene_2>
+   <ObjectInScene_3>
+    <ObjectClass value="ImageObject"/>
+    <FullFileName value="./0.mnc"/>
+    <ObjectID value="0"/>
+    <ParentID value="-2"/>
+    <ObjectName value="T1-Gado"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <LabelImage value="0"/>
+    <ViewOutline value="0"/>
+    <LutIndex value="0"/>
+    <LutRange value="0.0000000000000000e+00 2.9167312622070312e+02 "/>
+    <IntensityFactor value="1.0000000000000000e+00"/>
+    <VolumeRenderingEnabled value="0"/>
+    <ColorWindow value="1.0000000000000000e+00"/>
+    <ColorLevel value="5.0000000000000000e-01"/>
+    <EnableShading value="0"/>
+    <Ambiant value="1.0000000000000001e-01"/>
+    <Diffuse value="6.9999999999999996e-01"/>
+    <Specular value="2.0000000000000001e-01"/>
+    <SpecularPower value="1.0000000000000000e+01"/>
+    <EnableGradientOpacity value="1"/>
+    <AutoSampleDistance value="1"/>
+    <SampleDistance value="1.0000000000000000e+00"/>
+    <ShowVolumeClippingBox value="0"/>
+    <VolumeRenderingBounds value="-1.1959845999999999e+02 1.2962029000000001e+02 -1.0201318000000001e+02 1.4720556999999999e+02 -7.8842285000000004e+01 1.3877771500000000e+02 "/>
+    <ScalarOpacity>
+     <NbPoints value="2"/>
+     <Point_0 value="0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ScalarOpacity>
+    <GradientOpacity>
+     <NbPoints value="2"/>
+     <Point_0 value="0.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </GradientOpacity>
+    <ColorTransferFunction>
+     <NbColorPoints value="2"/>
+     <ColorPoint_0 value="0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_1 value="2.5500000000000000e+02 1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ColorTransferFunction>
+   </ObjectInScene_3>
+  </ObjectList>
+  <Plugins>
+   <USAcquisitionDoubleView/>
+   <FrameRateTester/>
+   <Animate>
+    <RenderSize value="1024 1024 "/>
+    <CurrentFrame value="0"/>
+    <NumberOfFrames value="100"/>
+    <CameraAnimation>
+     <Keys>
+      <NumberOfElements value="0"/>
+     </Keys>
+    </CameraAnimation>
+    <TFAnimation>
+     <Keys>
+      <NumberOfElements value="0"/>
+     </Keys>
+    </TFAnimation>
+    <CamMinDistanceAnim>
+     <Keys>
+      <NumberOfElements value="0"/>
+     </Keys>
+    </CamMinDistanceAnim>
+   </Animate>
+   <PRISMDemo/>
+  </Plugins>
+  <SceneManager>
+   <CurrentObjectID value="-2"/>
+   <ReferenceObjectID value="0"/>
+   <ViewBackgroundColor value="9.4117647058823528e-02 1.2156862745098039e-01 1.4901960784313725e-01 "/>
+   <Views>
+    <Transverse>
+     <Position value="5.0109150000000113e+00 2.2596193203124997e+01 -6.5091057745311377e+02 "/>
+     <FocalPoint value="5.0109150000000113e+00 2.2596193203124997e+01 2.9967714654846191e+01 "/>
+     <Scale value="1.7622426939441738e+02"/>
+     <ViewUp value="0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </Transverse>
+    <ThreeD>
+     <Position value="5.3357192130644228e+02 1.0167066433896391e+01 1.7475897994689282e+02 "/>
+     <FocalPoint value="2.9243176995568696e+00 1.4717128612962867e+01 7.9963723164741651e-02 "/>
+     <Scale value="2.5980762113533160e+02"/>
+     <ViewUp value="-3.1270178547968308e-01 -3.6423822570069591e-03 9.4984436957288543e-01 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </ThreeD>
+    <Coronal>
+     <Position value="5.0109150000000113e+00 6.6176895466178212e+02 2.9967714921875000e+01 "/>
+     <FocalPoint value="5.0109150000000113e+00 2.2596195110473630e+01 2.9967714921875000e+01 "/>
+     <Scale value="1.6543008328261274e+02"/>
+     <ViewUp value="0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </Coronal>
+    <Sagittal>
+     <Position value="-6.3416184987950510e+02 2.2596193203124997e+01 2.9967714921875000e+01 "/>
+     <FocalPoint value="5.0109149012756404e+00 2.2596193203124997e+01 2.9967714921875000e+01 "/>
+     <Scale value="1.6543008463609976e+02"/>
+     <ViewUp value="0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </Sagittal>
+   </Views>
+  </SceneManager>
+  <AxesHidden value="1"/>
+  <CursorVisible value="1"/>
+  <QuadViewWindow>
+   <CurrentViewWindow value="1"/>
+   <ViewExpanded value="1"/>
+  </QuadViewWindow>
+ </SaveScene>
+</configuration>
